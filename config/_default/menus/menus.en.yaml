@@ -7214,6 +7214,130 @@ api:
         - DownloadCloudWorkloadPolicyFile
       unstable: []
       order: 1
+  - name: Confluent Cloud Accounts API
+    url: /api/latest/confluent-cloud-accounts-api/
+    identifier: confluent-cloud-accounts-api
+    generated: true
+  - name: Confluent Cloud Public - Update resource
+    url: '#confluent-cloud-public-update-resource'
+    identifier: confluent-cloud-accounts-api-confluent-cloud-public-update-resource
+    parent: confluent-cloud-accounts-api
+    generated: true
+    params:
+      versions:
+        - v2
+      operationids:
+        - ConfluentCloudPublic9
+      unstable: []
+      order: 0
+  - name: Confluent Cloud Public - Get resource
+    url: '#confluent-cloud-public-get-resource'
+    identifier: confluent-cloud-accounts-api-confluent-cloud-public-get-resource
+    parent: confluent-cloud-accounts-api
+    generated: true
+    params:
+      versions:
+        - v2
+      operationids:
+        - ConfluentCloudPublic7
+      unstable: []
+      order: 0
+  - name: Confluent Cloud Public - Delete resource
+    url: '#confluent-cloud-public-delete-resource'
+    identifier: confluent-cloud-accounts-api-confluent-cloud-public-delete-resource
+    parent: confluent-cloud-accounts-api
+    generated: true
+    params:
+      versions:
+        - v2
+      operationids:
+        - ConfluentCloudPublic10
+      unstable: []
+      order: 0
+  - name: Confluent Cloud Public - Add resource
+    url: '#confluent-cloud-public-add-resource'
+    identifier: confluent-cloud-accounts-api-confluent-cloud-public-add-resource
+    parent: confluent-cloud-accounts-api
+    generated: true
+    params:
+      versions:
+        - v2
+      operationids:
+        - ConfluentCloudPublic8
+      unstable: []
+      order: 0
+  - name: Confluent Cloud Public - List resources
+    url: '#confluent-cloud-public-list-resources'
+    identifier: confluent-cloud-accounts-api-confluent-cloud-public-list-resources
+    parent: confluent-cloud-accounts-api
+    generated: true
+    params:
+      versions:
+        - v2
+      operationids:
+        - ConfluentCloudPublic6
+      unstable: []
+      order: 0
+  - name: Confluent Cloud Public - Update account
+    url: '#confluent-cloud-public-update-account'
+    identifier: confluent-cloud-accounts-api-confluent-cloud-public-update-account
+    parent: confluent-cloud-accounts-api
+    generated: true
+    params:
+      versions:
+        - v2
+      operationids:
+        - ConfluentCloudPublic4
+      unstable: []
+      order: 0
+  - name: Confluent Cloud Public - Get account
+    url: '#confluent-cloud-public-get-account'
+    identifier: confluent-cloud-accounts-api-confluent-cloud-public-get-account
+    parent: confluent-cloud-accounts-api
+    generated: true
+    params:
+      versions:
+        - v2
+      operationids:
+        - ConfluentCloudPublic2
+      unstable: []
+      order: 0
+  - name: Confluent Cloud Public - Delete account
+    url: '#confluent-cloud-public-delete-account'
+    identifier: confluent-cloud-accounts-api-confluent-cloud-public-delete-account
+    parent: confluent-cloud-accounts-api
+    generated: true
+    params:
+      versions:
+        - v2
+      operationids:
+        - ConfluentCloudPublic5
+      unstable: []
+      order: 0
+  - name: Confluent Cloud Public - Add account
+    url: '#confluent-cloud-public-add-account'
+    identifier: confluent-cloud-accounts-api-confluent-cloud-public-add-account
+    parent: confluent-cloud-accounts-api
+    generated: true
+    params:
+      versions:
+        - v2
+      operationids:
+        - ConfluentCloudPublic3
+      unstable: []
+      order: 0
+  - name: Confluent Cloud Public - List accounts
+    url: '#confluent-cloud-public-list-accounts'
+    identifier: confluent-cloud-accounts-api-confluent-cloud-public-list-accounts
+    parent: confluent-cloud-accounts-api
+    generated: true
+    params:
+      versions:
+        - v2
+      operationids:
+        - ConfluentCloudPublic1
+      unstable: []
+      order: 0
   - name: Incident Services
     url: /api/latest/incident-services/
     identifier: incident-services
